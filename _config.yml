@@ -35,8 +35,17 @@ address2: Dallas, TX 75230
 defaults:
   - scope:
       path: ''
+      type: 'articles'
+    values:
+      layout: 'article'
+  - scope:
+      path: ''
     values:
       layout: 'default'
+
+collections:
+  articles:
+    output: true
 
 plugins:
   - jekyll-sitemap
