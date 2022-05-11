@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/about</loc>
+</url>
+<url>
+<loc>http://localhost:4000/articles</loc>
+</url>
+<url>
+<loc>http://localhost:4000/calligraphy</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/new-patient</loc>
+</url>
+<url>
+<loc>http://localhost:4000/src/about.html</loc>
+<lastmod>2022-05-11T21:58:33+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/src/articles.html</loc>
+<lastmod>2022-05-11T22:14:49+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/src/calligraphy.html</loc>
+<lastmod>2022-05-11T21:42:32+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/src/new.html</loc>
+<lastmod>2022-05-11T21:43:47+09:00</lastmod>
+</url>
+</urlset>
