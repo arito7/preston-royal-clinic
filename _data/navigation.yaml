@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: New Patient Form
+  link: /new-patient
+- name: Articles
+  link: /articles
+- name: Calligraphy
+  link: /calligraphy
+- name: About Us
+  link: /about
