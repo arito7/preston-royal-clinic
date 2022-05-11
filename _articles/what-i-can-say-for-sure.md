@@ -1,6 +1,10 @@
 ---
-publisher: The Mind-Body Connection
+publisher: NAJOM
 published: 2018-11
+volume:
+number:
+pdf:
+pdfjp:
 title: What I Can Say For Sure
 author: Bunzo Takamatsu
 excerpt: I get questions like&#58; “Will the stenosis get better?” from a patient who came in with a report that shows spinal stenosis. Or, “Will the cartilage grow back?" from a patient with knee pain who was told it was “bone on bone” and that surgery was recommended.
