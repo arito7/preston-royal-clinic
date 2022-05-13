@@ -1,11 +1,13 @@
 <footer class="bg-dark text-white text-end p-4">
 
-  <address class="my-1">{{ site.phone }}<i class="ms-2 bi bi-telephone"></i></address>
+  <address class="my-1">
+    <a href="tel:{{site.phone}}">{{ site.phone }}</a><i class="ms-2 bi bi-telephone"></i>
+  </address>
   <p class="my-1">
-    {{ site.email }}<i class="ms-2 bi bi-envelope"></i>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a><i class="ms-2 bi bi-envelope"></i>
   </p>
-  <address class="my-1">{{ site.address1 }}<i class="ms-2 bi bi-geo-alt"></i></address>
-  <p class="mt-1 mb-1">&copy; Preston Royal Clinic 2022</p>
-  <address class="my-1">{{ site.address2 }}</address>
+  <address class="my-1"><a href="https://goo.gl/maps/nvoVNvsmd7e2NX1cA">{{ site.address1 }} {{ site.address2 }}</a>
+    <p class="mt-1 mb-1">&copy; Preston Royal Clinic 2022</p>
+  </address>
 
 </footer>
