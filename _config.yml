@@ -54,7 +54,7 @@ collections:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  # - github-pages
+  - github-pages
 # include:
 #   - node_modules/bootstrap
 # Exclude from processing.
