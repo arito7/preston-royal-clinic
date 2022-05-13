@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /calligraphy
+title: Calligraphy
+---
+
+{% for calligraphy in site.data.calligraphy %}
+<div class="card m-2 p-2 mb-4 shadow">
+  <img src="assets/images/{{ calligraphy.image }}" alt="{{ calligraphy.alt }}" srcset="">
+  <div class="card-body">
+    <h6 class="card-title fst-italic text-center fw-bold fs-6 mb-4">
+      {{ calligraphy.title }}
+    </h6>
+    <p class="card-text">
+      {{ calligraphy.caption }}
+    </p>
+  </div>
+</div>
+{% endfor %}
+
+</div>
