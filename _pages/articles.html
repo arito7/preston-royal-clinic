@@ -14,23 +14,27 @@ title: Articles
   </div>
 </div>
 
-{% for article in site.articles %}
+<div class="row">
 
-<div class="col-sm-12">
-  <div class="card m-4">
-    <div class="card-body text-end">
-      <h4 class="card-title text-center mb-3">
-        {{ article.title }}
-      </h4>
-      <p class="card-text text-start">
+  {% for article in site.articles %}
 
-        <!-- prettier-ignore -->
-        {{ article.excerpt | remove: '<p>' | remove: '</p>'}}
+  <div class="col-xs-12 col-lg-4 col-md-6">
+    <div class="card m-4">
+      <div class="card-body text-end">
+        <h4 class="card-title text-center mb-3">
+          {{ article.title }}
+        </h4>
+        <p class="card-text text-start">
 
-      </p>
-      <a href="{{ site.baseurl }}{{ article.url }}" class="btn btn-primary mb-0 mr-0">continue reading</a>
+          <!-- prettier-ignore -->
+          {{ article.excerpt | remove: '<p>' | remove: '</p>'}}
+
+        </p>
+        <a href="{{ site.baseurl }}{{ article.url }}" class="btn btn-primary mb-0 mr-0">continue reading</a>
+      </div>
     </div>
   </div>
-</div>
 
-{% endfor %}
+  {% endfor %}
+
+</div>
