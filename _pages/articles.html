@@ -28,7 +28,7 @@ title: Articles
         {{ article.excerpt | remove: '<p>' | remove: '</p>'}}
 
       </p>
-      <a href="{{ article.url }}" class="btn btn-primary mb-0 mr-0">continue reading</a>
+      <a href="{{ site.baseurl }}{{ article.url }}" class="btn btn-primary mb-0 mr-0">continue reading</a>
     </div>
   </div>
 </div>
