@@ -38,6 +38,7 @@ defaults:
       type: 'articles'
     values:
       layout: 'article'
+      excerpt_separator: <!--more-->
   - scope:
       path: ''
     values:
@@ -45,6 +46,9 @@ defaults:
 
 collections:
   articles:
+    output: true
+    page_excerpts: true
+  pages:
     output: true
 
 plugins:
