@@ -7,5 +7,4 @@ title: A Healing Mantra
 author: Bunzo Takamatsu
 pdf:
 pdfjp:
-excerpt:
 ---
