@@ -22,8 +22,11 @@ title: Articles
       <h4 class="card-title text-center mb-3">
         {{ article.title }}
       </h4>
-      <p class="card-text">
-        {{ article.excerpt }}
+      <p class="card-text text-start">
+
+        <!-- prettier-ignore -->
+        {{ article.excerpt | remove: '<p>' | remove: '</p>'}}
+
       </p>
       <a href="{{ article.url }}" class="btn btn-primary mb-0 mr-0">continue reading</a>
     </div>
