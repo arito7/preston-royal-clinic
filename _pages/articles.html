@@ -27,10 +27,11 @@ title: Articles
         <p class="card-text text-start">
 
           <!-- prettier-ignore -->
-            {{ article.excerpt | remove: '<p>' | remove: '</p>'}}
+          {{ article.excerpt | remove: '<p>' | remove: '</p>'}}
 
-      </p>
-      <a href="{{ site.baseurl }}{{ article.url }}" class="btn btn-primary text-light mb-0 mr-0">continue reading</a>
+        </p>
+        <a href="{{ site.baseurl }}{{ article.url }}" class="btn btn-primary text-light mb-0 mr-0">continue reading</a>
+      </div>
     </div>
   </div>
 
