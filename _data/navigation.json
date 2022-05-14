@@ -1,7 +1,7 @@
 [
-  { "name": "Home", "link": "/preston-royal-clinic/" },
-  { "name": "New Patient Form", "link": "/preston-royal-clinic/new-patient" },
-  { "name": "Articles", "link": "/preston-royal-clinic/articles" },
-  { "name": "Calligraphy", "link": "/preston-royal-clinic/calligraphy" },
-  { "name": "About Us", "link": "/preston-royal-clinic/about" }
+  { "name": "Home", "link": "/" },
+  { "name": "New Patient Form", "link": "/new-patient" },
+  { "name": "Articles", "link": "/articles" },
+  { "name": "Calligraphy", "link": "/calligraphy" },
+  { "name": "About Us", "link": "/about" }
 ]
