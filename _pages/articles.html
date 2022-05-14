@@ -17,7 +17,7 @@ title: Articles
 {% for article in site.articles %}
 
 <div class="col-sm-12">
-  <div class="card m-4">
+  <div class="card m-4 p-4 pb-0">
     <div class="card-body text-end">
       <h4 class="card-title text-center mb-3">
         {{ article.title }}
@@ -28,7 +28,7 @@ title: Articles
         {{ article.excerpt | remove: '<p>' | remove: '</p>'}}
 
       </p>
-      <a href="{{ site.baseurl }}{{ article.url }}" class="btn btn-primary mb-0 mr-0">continue reading</a>
+      <a href="{{ site.baseurl }}{{ article.url }}" class="btn btn-primary text-light mb-0 mr-0">continue reading</a>
     </div>
   </div>
 </div>
