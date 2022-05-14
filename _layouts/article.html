@@ -3,24 +3,44 @@ layout: default
 ---
 
 <div class="row">
-  <div class="col-xs-12">
-    Publisher: {{ page.publisher }}
+  <div class="col-sm-12 p-4">
+    <div class="card">
+      <div class="card-body text-start">
+        <p class="card-text">
+          Publisher: {{ page.publisher }}
+        </p>
+        <p class="card-text">
+          By {{ page.author }}
+        </p>
+        <p class="card-text">
+          Date {{ page.published }}
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-xs-6">
-    By {{ page.author }}
-  </div>
-
-  <div class="col-xs-6">
-    Date {{ page.published }}
+  <div class="col-sm-12 p-4 text-start">
+    <div class="card p-4">
+      <div class="card-content">
+        {{ content }}
+      </div>
+    </div>
   </div>
 </div>
 
-
-<div class="row">
-  <div class="col-xs-12 p-4 text-start">
-    {{ content }}
+<div class="row justify-content-center align-items-center mb-4">
+  <div class="col-sm-12 col-md-5 m-4">
+    <a class="btn btn-primary text-light" href="/assets/pdf/a-laughing-doctor.pdf">
+      <i class="bi bi-file-pdf-fill"></i>
+      Download PDF
+    </a>
+  </div>
+  <div class="col-sm-12 col-md-5 m-4">
+    <a class="btn btn-primary text-light" href="/assets/pdf/a-laughing-doctor-jp.pdf">
+      <i class="bi bi-file-pdf-fill"></i>
+      Download Japanese Ver. PDF
+    </a>
   </div>
 </div>
