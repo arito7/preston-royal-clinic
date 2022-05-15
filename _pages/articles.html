@@ -24,8 +24,7 @@ title: Articles
       <div class="card-body">
         <p class="card-text">
           <!-- prettier-ignore -->
-          {{ article.excerpt | remove: '
-        <p>' | remove: '</p>'}}
+          {{ article.excerpt | remove: '<p>' | remove: '</p>'}}
         </p>
         <div class="text-end">
           <a href="{{ site.baseurl }}{{ article.url }}" class="border p-2 rounded-3">continue reading<i
