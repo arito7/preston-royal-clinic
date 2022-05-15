@@ -3,26 +3,30 @@ layout: default
 ---
 
 <div class="row">
-  <div class="col-sm-12 p-4 pb-0">
-    <div class="card">
-      <div class="card-body text-start fw-bold">
-        <p class="card-text">
-          Publisher: {{ page.publisher }}
-        </p>
-        <p class="card-text">
-          By {{ page.author }}
-        </p>
-        <p class="card-text">
-          Date {{ page.published }}
-        </p>
-      </div>
-    </div>
+  <div class="col-sm-12 px-4">
+    <hr />
   </div>
 </div>
 
 <div class="row">
-  <div class="col-sm-12 p-4 text-start">
-    <div class="card p-4">
+  <div class="col-sm-12 p-4 py-0">
+    <p class="text-start text-muted m-0">
+      Publisher: {{ page.publisher }}<br />
+      By {{ page.author }}<br />
+      Date {{ page.published }}<br />
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 px-4">
+    <hr />
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 p-4 pt-0 text-start">
+    <div class="card p-4 border-primary">
       <div class="card-content">
         {{ content }}
       </div>
@@ -32,13 +36,13 @@ layout: default
 
 <div class="row justify-content-center align-items-center mb-4">
   <div class="col-sm-12 col-md-5 m-4">
-    <a class="btn btn-primary text-light" href="/assets/pdf/a-laughing-doctor.pdf">
+    <a class="btn btn-primary text-light" href="/assets/pdf/{{ page.pdf }}">
       <i class="bi bi-file-pdf-fill"></i>
       Download PDF
     </a>
   </div>
   <div class="col-sm-12 col-md-5 m-4">
-    <a class="btn btn-primary text-light" href="/assets/pdf/a-laughing-doctor-jp.pdf">
+    <a class="btn btn-primary text-light" href="/assets/pdf/{{ page.pdfjp }}">
       <i class="bi bi-file-pdf-fill"></i>
       Download Japanese Ver. PDF
     </a>
