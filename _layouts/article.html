@@ -3,31 +3,16 @@ layout: default
 ---
 
 <div class="row">
-  <div class="col-sm-12 px-4">
-    <hr />
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-sm-12 p-4 py-0">
-    <p class="text-start text-muted m-0">
-      Publisher: {{ page.publisher }}<br />
-      By {{ page.author }}<br />
-      Date {{ page.published }}<br />
-    </p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-sm-12 px-4">
-    <hr />
-  </div>
-</div>
-
-<div class="row">
   <div class="col-sm-12 p-4 pt-0 text-start">
-    <div class="card p-4 border-primary">
-      <div class="card-content">
+    <div class="card border-primary">
+      <div class="card-header">
+        <p class="text-start text-muted m-0">
+          Publisher: {{ page.publisher }}<br />
+          By {{ page.author }}<br />
+          Date: {{ page.published }}<br />
+        </p>
+      </div>
+      <div class="card-content p-4">
         {{ content }}
       </div>
     </div>
@@ -35,16 +20,23 @@ layout: default
 </div>
 
 <div class="row justify-content-center align-items-center mb-4">
-  <div class="col-sm-12 col-md-5 m-4">
+  <div class="col-sm-12 col-md-5 p-4">
     <a class="btn btn-primary text-light" href="/assets/pdf/{{ page.pdf }}">
       <i class="bi bi-file-pdf-fill"></i>
       Download PDF
     </a>
   </div>
-  <div class="col-sm-12 col-md-5 m-4">
+  <div class="col-sm-12 col-md-5 p-4">
     <a class="btn btn-primary text-light" href="/assets/pdf/{{ page.pdfjp }}">
       <i class="bi bi-file-pdf-fill"></i>
       Download Japanese Ver. PDF
     </a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 mb-4 text-start">
+    <a class="border rounded-3 p-2" href="{{ site.baseurl }}/articles"><i class="bi bi-arrow-left-short"></i>Back
+      to articles</a>
   </div>
 </div>
