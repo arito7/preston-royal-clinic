@@ -2,11 +2,7 @@
 
 source "https://rubygems.org"
 
-<<<<<<< HEAD
-gem "jekyll", "~> 3.9.2"
-=======
 gem "jekyll", "~> 4.2.2"
->>>>>>> 12fafb63d2ad68dd78352cc85c29bb15d1882247
 
 # gem "rails"
 group :jekyll_plugins do
@@ -30,5 +26,3 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.7"
-
-gem "github-pages", "~> 226", group: :jekyll_plugins
