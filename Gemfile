@@ -2,7 +2,11 @@
 
 source "https://rubygems.org"
 
+<<<<<<< HEAD
 gem "jekyll", "~> 3.9.2"
+=======
+gem "jekyll", "~> 4.2.2"
+>>>>>>> 12fafb63d2ad68dd78352cc85c29bb15d1882247
 
 # gem "rails"
 group :jekyll_plugins do
@@ -17,6 +21,7 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
+gem "minima", "~> 2.5.1"
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 

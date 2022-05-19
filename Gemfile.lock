@@ -49,7 +49,6 @@ GEM
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
     ffi (1.15.5)
-    ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (226)
@@ -122,6 +121,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+<<<<<<< HEAD
     jekyll-avatar (0.7.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-coffeescript (1.1.1)
@@ -164,6 +164,13 @@ GEM
       rubyzip (>= 1.3.0, < 3.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+=======
+      terminal-table (~> 2.0)
+    jekyll-feed (0.15.1)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-sass-converter (2.2.0)
+      sassc (> 2.0.1, < 3.0)
+>>>>>>> 12fafb63d2ad68dd78352cc85c29bb15d1882247
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
@@ -225,11 +232,16 @@ GEM
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+<<<<<<< HEAD
     mercenary (0.3.6)
+=======
+    mercenary (0.4.0)
+>>>>>>> 12fafb63d2ad68dd78352cc85c29bb15d1882247
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+<<<<<<< HEAD
     minitest (5.15.0)
     multipart-post (2.1.1)
     nokogiri (1.13.6-x64-mingw-ucrt)
@@ -239,6 +251,8 @@ GEM
     octokit (4.22.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
+=======
+>>>>>>> 12fafb63d2ad68dd78352cc85c29bb15d1882247
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
@@ -276,15 +290,20 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
-  x64-mingw-ucrt
+  x64-unknown
   x86_64-linux
 
 DEPENDENCIES
   github-pages (~> 226)
   http_parser.rb (~> 0.6.0)
+<<<<<<< HEAD
   jekyll (~> 3.9.2)
+=======
+  jekyll (~> 4.2.2)
+>>>>>>> 12fafb63d2ad68dd78352cc85c29bb15d1882247
   jekyll-seo-tag
   jekyll-sitemap
+  minima (~> 2.5.1)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

@@ -3,24 +3,38 @@ layout: default
 ---
 
 <div class="row">
-  <div class="col-xs-12">
-    Publisher: {{ page.publisher }}
+  <div class="col-sm-12 p-4 pt-0 text-start">
+    <div class="card border-primary">
+      <div class="card-header">
+        <p class="text-start text-muted m-0">
+          Publisher: {{ page.publisher }}<br />
+          By {{ page.author }}<br />
+          Date: {{ page.published }}<br />
+        </p>
+      </div>
+      <div class="card-content p-4">
+        {{ content }}
+      </div>
+      <div class="card-footer">
+
+        <a href="{{ site.baseurl }}/articles"><i class="bi bi-arrow-left-short"></i>Back
+          to articles</a>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="row">
-  <div class="col-xs-6">
-    By {{ page.author }}
+<div class="row justify-content-center align-items-center mb-4">
+  <div class="col-sm-12 col-md-5 p-4">
+    <a class="btn btn-primary text-light" href="/assets/pdf/{{ page.pdf }}">
+      <i class="bi bi-file-pdf-fill"></i>
+      Download PDF
+    </a>
   </div>
-
-  <div class="col-xs-6">
-    Date {{ page.published }}
-  </div>
-</div>
-
-
-<div class="row">
-  <div class="col-xs-12 p-4">
-    {{ content }}
+  <div class="col-sm-12 col-md-5 p-4">
+    <a class="btn btn-primary text-light" href="/assets/pdf/{{ page.pdfjp }}">
+      <i class="bi bi-file-pdf-fill"></i>
+      Download Japanese Ver. PDF
+    </a>
   </div>
 </div>

@@ -1,0 +1,22 @@
+---
+title: Calligraphy
+---
+<div class="row mt-4">
+
+  {% for calligraphy in site.data.calligraphy %}
+  <div class="col-xs-12 col-lg-6">
+    <div class="card m-2 p-2 mb-4 shadow">
+      <img src="{{site.baseurl}}/assets/images/{{ calligraphy.image }}" alt="{{ calligraphy.alt }}" srcset="">
+      <div class="card-body">
+        <h6 class="card-title fst-italic text-center fw-bold fs-6 mb-4">
+          {{ calligraphy.title }}
+        </h6>
+        <p class="card-text">
+          {{ calligraphy.caption }}
+        </p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
