@@ -48,6 +48,14 @@ collections:
   articles:
     output: true
     page_excerpts: true
+    sort_by: date
+    order:
+      - one-liter-of-tears-and-a-bowl-of-green-juice.md
+      - learning-from-bovine-moxibustion.md
+      - what-i-can-say-for-sure.md
+      - how-to-perform-magic.md
+      - healing-mantra.md
+      - baby-power.md
   pages:
     output: true
     permalink: /:name
