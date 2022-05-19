@@ -2,7 +2,7 @@
 publisher: NAJOM
 volume: 5
 number: 13
-published: 1998-07
+published: 2022-04
 title: Learning from Bovine Moxibustion
 author: Bunzo Takamatsu
 pdf: 'learing-from-bovine-moxibustion.pdf'

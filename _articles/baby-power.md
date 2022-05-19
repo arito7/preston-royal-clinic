@@ -1,6 +1,6 @@
 ---
 publisher: NAJOM
-published: 2006-07
+published: 2022-05
 title: Baby Power
 author: Bunzo Takamatsu
 pdf: baby-power.pdf

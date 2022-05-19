@@ -2,7 +2,7 @@
 publisher: NAJOM
 volume: 5
 number: 13
-published: 1998-07
+published: 2022-06
 title: A Healing Mantra
 author: Bunzo Takamatsu
 pdf: a-healing-mantra.pdf

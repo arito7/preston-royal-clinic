@@ -1,6 +1,6 @@
 ---
 publisher: NAJOM
-published: 2018-11
+published: 2022-02
 volume:
 number:
 pdf: what-i-can-say-for-sure.pdf
