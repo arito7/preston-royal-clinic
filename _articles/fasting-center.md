@@ -2,6 +2,7 @@
 publisher: NAJOM
 volume: 10
 number: 29
+date: 2003-11-01
 published: 2003-11
 title: Fasting Center
 author: Bunzo Takamatsu

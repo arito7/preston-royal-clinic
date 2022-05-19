@@ -1,6 +1,7 @@
 ---
 publisher: NAJOM
 published: 1996-11
+date: 1996-11-01
 title: A Laughing Doctor
 author: Bunzo Takamatsu
 pdf: a-laughing-doctor.pdf

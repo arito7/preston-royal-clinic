@@ -1,8 +1,9 @@
 ---
 publisher: NAJOM
-published: 2018-11
+published: 2022-03
 volume:
 number:
+date: 2022-03-01
 pdf: what-i-can-say-for-sure.pdf
 pdfjp: what-i-can-say-for-sure-jp.pdf
 title: What I Can Say For Sure

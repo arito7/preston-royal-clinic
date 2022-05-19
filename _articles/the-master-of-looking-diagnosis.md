@@ -3,6 +3,7 @@ publisher: NAJOM
 volume: 9
 number: 25
 published: 2002-07
+date: 2002-07-01
 title: The Master of Looking Diagnosis
 author: Bunzo Takamatsu
 pdf: master-of-looking-diagnosis.pdf

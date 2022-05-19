@@ -1,6 +1,7 @@
 ---
 publisher: NAJOM
 published: 2008-11
+date: 2008-11-01
 title: Acupuncture in Guadalajara
 author: Bunzo Takamatsu
 pdf: acupuncture-in-guadalajara.pdf

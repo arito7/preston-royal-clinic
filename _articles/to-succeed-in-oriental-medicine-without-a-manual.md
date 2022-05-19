@@ -3,6 +3,7 @@ publisher: NAJOM
 volume: 8
 number: 21
 published: 2001-03
+date: 2001-03-01
 title: To Succeed in Oriental Medicine without a Manual
 author: Bunzo Takamatsu
 pdf: succeed-in-oriental-medicine-without-a-manual.pdf

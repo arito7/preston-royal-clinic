@@ -3,6 +3,7 @@ publisher: NAJOM
 volume: 5
 number: 13
 published: 1998-07
+date: 1998-07-01
 title: Master Seminar
 author: Bunzo Takamatsu
 pdf: master-seminar.pdf

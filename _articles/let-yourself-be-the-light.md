@@ -3,6 +3,7 @@ publisher: Methods and Approaches NAJOM
 volume: 24
 number: 73
 published: 2018-11
+date: 2018-11-01
 title: Let Yourself Be the Light
 author: Bunzo Takamatsu
 pdf: let-yourself-be-the-light.pdf

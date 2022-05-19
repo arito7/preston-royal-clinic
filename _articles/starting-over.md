@@ -1,6 +1,7 @@
 ---
 title: Starting Over
 published: 2001-07
+date: 2001-07-01
 publisher: NAJOM
 volume: 8
 number: 22
