@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Preston Royal Clinic New Patient Form</title>
-  <script src="/assets/js/main.js"></script>
+  <script src="/preston-royal-clinic/assets/js/main.js"></script>
+  <link rel="stylesheet" href="/preston-royal-clinic/assets/css/style.css">
 </head>
 
 <body class="bg-light bg-gradient fw-light min-vh-100 d-flex flex-column">
@@ -14,7 +15,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-primary bg-gradient">
   <div class="container-fluid">
 
-    <a href="/" class="text-light navbar-brand">Preston Royal Clinic</a>
+    <a href="/preston-royal-clinic/" class="text-light navbar-brand">Preston Royal Clinic</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +27,7 @@
         
         <li class="nav-item">
           <a  class="nav-link text-light"
-            href="/" >Home</a>
+            href="/preston-royal-clinic/" >Home</a>
         </li>
         
         <li class="nav-item">
@@ -35,17 +36,17 @@
         
         <li class="nav-item">
           <a  class="nav-link text-light"
-            href="/articles" >Articles</a>
+            href="/preston-royal-clinic/articles" >Articles</a>
         </li>
         
         <li class="nav-item">
           <a  class="nav-link text-light"
-            href="/calligraphy" >Calligraphy</a>
+            href="/preston-royal-clinic/calligraphy" >Calligraphy</a>
         </li>
         
         <li class="nav-item">
           <a  class="nav-link text-light"
-            href="/about" >About Us</a>
+            href="/preston-royal-clinic/about" >About Us</a>
         </li>
         
       </ul>
@@ -54,7 +55,7 @@
 </nav>
 
 
-  <h1 class="h2 mt-4 text-center">
+  <h1 class="h2 my-4 pt-4 px-4 text-center">
     New Patient Form
   </h1>
 
@@ -68,13 +69,16 @@
 
   <footer class="bg-dark text-white text-end p-4">
 
-  <address class="my-1">972 701 8755<i class="ms-2 bi bi-telephone"></i></address>
+  <address class="my-1">
+    <a href="tel:972 701 8755" class="text-light">972 701 8755</a><i class="ms-2 bi bi-telephone"></i>
+  </address>
   <p class="my-1">
-    btakamatsu@hotmail.com<i class="ms-2 bi bi-envelope"></i>
+    <a href="mailto:btakamatsu@hotmail.com" class="text-light">btakamatsu@hotmail.com</a><i class="ms-2 bi bi-envelope"></i>
   </p>
-  <address class="my-1">12700 Preston Rd. Suite 255<i class="ms-2 bi bi-geo-alt"></i></address>
+  <address class="my-1"><a class="text-light" href="https://goo.gl/maps/nvoVNvsmd7e2NX1cA">12700 Preston Rd. Suite 255 Dallas, TX 75230
+    </a><i class="ms-2 bi bi-geo-alt"></i>
+  </address>
   <p class="mt-1 mb-1">&copy; Preston Royal Clinic 2022</p>
-  <address class="my-1">Dallas, TX 75230</address>
 
 </footer>
 
