@@ -3,6 +3,7 @@ publisher: NAJOM
 volume: 11
 number:
 published: 2004-07
+date: 2004-07-01
 title: The Rhythm of Moxibustion
 author: Bunzo Takamatsu
 pdf: rhythm-of-moxibustion.pdf

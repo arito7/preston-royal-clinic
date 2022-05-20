@@ -4,7 +4,7 @@ title: Articles
 
 <div class="row">
   <div class="col-sm-12">
-    <p class="text-start p-4">
+    <p class="text-start p-4 pb-0">
       The following articles were written by Bunzo Takamatsu for the North American Journal of Oriental
       Medicine. Each
       volume is presented in it’s original format of both English and Japanese.
@@ -24,8 +24,7 @@ title: Articles
       <div class="card-body">
         <p class="card-text">
           <!-- prettier-ignore -->
-          {{ article.excerpt | remove: '
-        <p>' | remove: '</p>'}}
+          {{ article.excerpt | remove: '<p>' | remove: '</p>'}}
         </p>
         <div class="text-end">
           <a href="{{ site.baseurl }}{{ article.url }}" class="border p-2 rounded-3">continue reading<i

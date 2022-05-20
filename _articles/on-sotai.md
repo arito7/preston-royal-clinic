@@ -1,6 +1,7 @@
 ---
 publisher: NAJOM
 published: 1994-11
+date: 1994-11-01
 title: On SOTAI
 author: Bunzo Takamatsu
 pdf: 'on-sotai.pdf'

@@ -1,6 +1,7 @@
 ---
 publisher: NAJOM
 published: 2022-07
+date: 2022-07-01
 title: One Liter of Tears and a Bowl of Green Juice
 author: Bunzo Takamatsu
 pdf: one-liter-of-tears.pdf

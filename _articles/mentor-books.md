@@ -1,5 +1,7 @@
 ---
 publisher: NAJOM
+published: 2020-01
+date: 2020-01-01
 volume: 20
 number: 59
 title: Mentor Books
