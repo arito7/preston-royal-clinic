@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Preston Royal Clinic and to the practice of Oriental medicine
   If you are just getting acquainted with Oriental Medicine, this site should be helpful. Here, I answer the most frequently asked questions about Oriental medicine. Then I introduce briefly the much broader subject of this medicine and its philosophy.
 domain: arito7.github.io
-url: https://arito7.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://prestonroyalclinic.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl:
 github_username: arito7
 phone: 972 701 8755
