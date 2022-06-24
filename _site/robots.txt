@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/preston-royal-clinic/sitemap.xml
+Sitemap: https://arito7.github.io/preston-royal-clinic/sitemap.xml
