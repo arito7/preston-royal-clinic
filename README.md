@@ -10,12 +10,12 @@ force push to gh-pages
 
 ```
 # you can avoid this line if you are in master.
-git checkout master 
+git checkout master
 ```
 
 ```
 # create a local gh-pages branch containing the splitted output folder
-git subtree split --prefix dist -b gh-pages
+git subtree split --prefix _site -b gh-pages
 ```
 
 ```
