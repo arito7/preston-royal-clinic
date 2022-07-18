@@ -10,7 +10,7 @@ force push to gh-pages
 
 ```
 # you can avoid this line if you are in master.
-git checkout master
+git checkout main
 ```
 
 ```
